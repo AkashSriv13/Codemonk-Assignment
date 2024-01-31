@@ -56,21 +56,22 @@ Then install the dependencies:
 
 Once `pip` has finished downloading the dependencies:
 ```sh
-(env)$ cd codemonk
-(env)$ python manage.py runserver
+$ cd codemonk
+$ python manage.py runserver
 ```
 And navigate to `http://127.0.0.1:8000/`.
 
 After this you will get these URL patterns
 
--`admin/`
--`swagger/ [name='schema-swagger-ui']`
--`redoc/ [name='schema-redoc']`
--`users/ [name='user-list']`
--`paragraphs/ [name='paragraph-list']`
--`text-input/ [name='text-input']`
--`search/ [name='search-word']`
-
+```sh
+admin/
+swagger/ [name='schema-swagger-ui']
+redoc/ [name='schema-redoc']
+users/ [name='user-list']
+paragraphs/ [name='paragraph-list']
+text-input/ [name='text-input']
+search/ [name='search-word']
+```sh
 
 
 ## API Endpoints
