@@ -51,13 +51,17 @@ $ cd Codemonk-Assignment
 Then install the dependencies:
 
 ```sh
-(env)$ pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Once `pip` has finished downloading the dependencies:
 ```sh
 $ set DB_PASSWORD='Enter Your Postgres Password'
+```
+```sh
 $ python manage.py migrate
+```
+```sh
 $ python manage.py runserver
 ```
 After compiling the `manage.py` file navigate to the test link
