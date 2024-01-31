@@ -56,8 +56,8 @@ Then install the dependencies:
 
 Once `pip` has finished downloading the dependencies:
 ```sh
-$set DB_PASSWORD='Enter Your Postgres Password'
-$python manage.py migrate
+$ set DB_PASSWORD='Enter Your Postgres Password'
+$ python manage.py migrate
 $ python manage.py runserver
 ```
 After compiling the `manage.py` file navigate to the test link
