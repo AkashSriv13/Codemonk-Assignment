@@ -44,7 +44,7 @@ The first thing to do is to clone the repository:
 
 ```sh
 $ git clone https://github.com/AkashSriv13/Codemonk-Assignment.git
-$ cd codemonk
+$ cd Codemonk-Assignment
 ```
 
 
@@ -56,7 +56,6 @@ Then install the dependencies:
 
 Once `pip` has finished downloading the dependencies:
 ```sh
-$ cd codemonk
 $ python manage.py runserver
 ```
 After compiling the `manage.py` file navigate to the test link
