@@ -71,7 +71,7 @@ users/ [name='user-list']
 paragraphs/ [name='paragraph-list']
 text-input/ [name='text-input']
 search/ [name='search-word']
-```sh
+```
 
 
 ## API Endpoints
