@@ -9,7 +9,7 @@ REST API that takes in multiple paragraphs of text as input, and stores each par
   - [Description](#description)
   - [Features](#features)
   - [Installation](#installation)
-  - [Usage](#usage)
+  - [API Documentation](#api-documentation)
   - [API Endpoints](#api-endpoints)
 
 ## Description
@@ -59,7 +59,9 @@ Once `pip` has finished downloading the dependencies:
 $ cd codemonk
 $ python manage.py runserver
 ```
-And navigate to `http://127.0.0.1:8000/`.
+After compiling the `manage.py` file navigate to the test link
+
+Navigate to `http://127.0.0.1:8000/`.
 
 After this you will get these URL patterns
 
@@ -72,6 +74,15 @@ paragraphs/ [name='paragraph-list']
 text-input/ [name='text-input']
 search/ [name='search-word']
 ```
+
+## API Documentation
+
+Navigate to the `http://127.0.0.1:8000/swagger/`
+
+You will see the API Documentation
+
+![WhatsApp Image 2024-01-31 at 21 45 43_8968ad33](https://github.com/AkashSriv13/Codemonk-Assignment/assets/120120817/1eb46fbf-3b4f-4e02-9c8d-9e1ba93d64ac)
+![WhatsApp Image 2024-01-31 at 21 46 24_d2f6b300](https://github.com/AkashSriv13/Codemonk-Assignment/assets/120120817/f3a0dfaf-b310-4ad4-be3a-9d68676ec77f)
 
 
 ## API Endpoints
