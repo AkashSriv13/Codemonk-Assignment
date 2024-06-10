@@ -1,5 +1,5 @@
 # Word Search and Indexing Tool
-### Codemonk-Assignment
+
 
 REST API that takes in multiple paragraphs of text as input, and stores each paragraph and the words-to-paragraph mappings on a PostgreSQL database.
 
